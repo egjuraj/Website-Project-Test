@@ -41,11 +41,16 @@ header {
     display: flex;
     align-items: center;
 }
-
+.footer-column .logo img{
+  width: 80%;
+}
 .menu-link::after {
     content: '\25BC';
     margin-left: 5px;
     font-size: 0.8rem;
+}
+.carousel-item img{
+  width: 100%;
 }
 
 .dropdown {
